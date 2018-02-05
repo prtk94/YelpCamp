@@ -1,0 +1,15 @@
+<% include ../partials/header/ %>
+
+<div class="container">
+	<div class="row">
+	<h1>Create a new campground:</h1>
+	<form action="/campgrounds" method="POST">
+		 <input class="form-control" type="text" name="name" placeholder="name">
+		 <input class="form-control" type="text" name="image" placeholder="img url">
+		 <input class="form-control" type="text" name="description" placeholder="description">
+		<button class="btn btn-primary btn-large">Submit</button>
+	</form>
+	</div>
+
+</div>
+<% include ../partials/footer/ %>
